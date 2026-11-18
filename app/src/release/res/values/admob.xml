@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- NovaPulse Launcher Production Google AdMob IDs -->
+    <string name="admob_app_id" translatable="false">ca-app-pub-4969792934066333~9928939759</string>
+    <string name="admob_banner_settings_id" translatable="false">ca-app-pub-4969792934066333/5414979677</string>
+    <string name="admob_banner_drawer_id" translatable="false">ca-app-pub-4969792934066333/1284162978</string>
+    <string name="admob_interstitial_settings_id" translatable="false">ca-app-pub-4969792934066333/5187748968</string>
+</resources>

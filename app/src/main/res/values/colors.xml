@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="semitransparent_navigation">#33000000</color>
+    <color name="semitransparent_navigation">#CC0B1026</color>
+
+    <!-- NovaPulse Glass Dark Indigo & Cyan Palette -->
+    <color name="novapulse_bg_obsidian">#0B1026</color>
+    <color name="novapulse_surface_card">#141C3A</color>
+    <color name="novapulse_surface_glass">#E60D142E</color>
+    <color name="novapulse_surface_glass_dock">#880E1635</color>
+    <color name="novapulse_primary_indigo">#6366F1</color>
+    <color name="novapulse_accent_cyan">#22D3EE</color>
+    <color name="novapulse_border_glass">#4038BDF8</color>
+    <color name="novapulse_border_subtle">#2694A3B8</color>
+    <color name="novapulse_text_primary">#F8FAFC</color>
+    <color name="novapulse_text_secondary">#94A3B8</color>
+    <color name="novapulse_handle_pill">#6638BDF8</color>
+    <color name="novapulse_ad_bar_bg">#F2090E21</color>
 </resources>

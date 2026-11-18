@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Google Official AdMob Test IDs for debug builds -->
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_settings_id" translatable="false">ca-app-pub-3940256099942544/9214589741</string>
+    <string name="admob_banner_drawer_id" translatable="false">ca-app-pub-3940256099942544/9214589741</string>
+    <string name="admob_interstitial_settings_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+</resources>

@@ -24,7 +24,7 @@ fun hasSigningVars(): Boolean {
 
 base {
     val versionCode = project.property("VERSION_CODE").toString().toInt()
-    archivesName = "launcher-$versionCode"
+    archivesName = "novapulse-launcher-$versionCode"
 }
 
 android {
@@ -140,6 +140,8 @@ detekt {
 
 dependencies {
     implementation(libs.fossify.commons)
+    implementation(libs.play.services.ads)
+    implementation(libs.google.ump)
 
     implementation(libs.bundles.room)
     ksp(libs.androidx.room.compiler)

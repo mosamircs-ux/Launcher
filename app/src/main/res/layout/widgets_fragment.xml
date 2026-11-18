@@ -1,20 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.fossify.home.fragments.WidgetsFragment xmlns:android="http://schemas.android.com/apk/res/android"
+<com.novapulse.launcher.fragments.WidgetsFragment xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/widgets_holder"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/widgets_drag_handle"
+        android:layout_width="44dp"
+        android:layout_height="4dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/novapulse_drag_handle" />
 
     <org.fossify.commons.views.MySearchMenu
         android:id="@+id/search_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/widgets_drag_handle"
         app:applyWindowInsets="false" />
 
     <com.qtalk.recyclerviewfastscroller.RecyclerViewFastScroller
         android:id="@+id/widgets_fastscroller"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_below="@id/search_bar"
         app:fastScrollEnabled="false">
 
@@ -26,4 +37,4 @@
             app:layoutManager="org.fossify.commons.views.MyLinearLayoutManager" />
 
     </com.qtalk.recyclerviewfastscroller.RecyclerViewFastScroller>
-</org.fossify.home.fragments.WidgetsFragment>
+</com.novapulse.launcher.fragments.WidgetsFragment>

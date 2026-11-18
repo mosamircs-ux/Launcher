@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Launcher</string>
-    <string name="launcher_settings">Launcher Settings</string>
+    <string name="app_launcher_name">NovaPulse</string>
+    <string name="launcher_settings">NovaPulse Settings</string>
     <string name="app_info">App info</string>
     <string name="touch_hold_widget">Long press the widget and drag it on your home screen</string>
     <string name="uninstall">Uninstall</string>
@@ -19,8 +19,9 @@
     <string name="double_tap_to_lock">Double tap to lock screen</string>
     <string name="lock_device_admin_hint">To enable the double tap to lock screen feature, you need to grant admin permission. Note that the app cannot be uninstalled until this permission is removed.</string>
     <string name="lock_device_admin_warning">Deactivating admin permission will disable the double tap to lock screen feature.</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
+    <string name="novapulse_tagline">Fast, glass-dark home experience crafted for clarity and speed.</string>
+    <string name="novapulse_set_default">Set as Default Home</string>
+    <string name="novapulse_default_active">Default Launcher Active</string>
+    <string name="novapulse_about_title">About NovaPulse Launcher</string>
+    <string name="novapulse_about_body">Version %1$s\n\nNovaPulse Launcher delivers a fast, customizable dark glass home screen with resizable widgets, smart folders, hidden apps, and fluid gestures.\n\nAds support ongoing development and are kept out of your home screen.\n\nOpen-source attribution: Based on Fossify Launcher, licensed under GNU GPLv3.</string>
 </resources>

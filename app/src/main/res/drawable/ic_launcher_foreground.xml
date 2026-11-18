@@ -1,3 +1,71 @@
-<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="108dp" android:height="108dp" android:viewportWidth="512" android:viewportHeight="512">
-    <path android:fillColor="#ffffff" android:pathData="M200.501 347.513q-9.168 0-15.694-6.526-6.527-6.527-6.527-15.694v-79.43l-22.22 16.938q-3.885 2.774-8.331 2.356-4.446-0.418-7.22-4.303t-2.223-8.331q0.551-4.446 4.446-7.22l99.703-76.37q3.059-2.223 6.526-3.334 3.467-1.111 7.077-1.111t7.077 1.111q3.467 1.111 6.526 3.334l30.828 23.608v-6.108q0-6.944 4.864-11.799 4.864-4.864 11.799-4.864 6.944 0 11.799 4.864 4.864 4.864 4.864 11.799v31.663l35.549 27.217q3.61 2.774 4.303 7.22 0.694 4.446-2.08 8.331t-7.22 4.303q-4.446 0.418-8.331-2.356l-22.22-16.938v79.43q0 9.168-6.526 15.694-6.517 6.517-15.675 6.517H300.49q-9.168 0-15.694-6.526-6.527-6.527-6.527-15.694v-22.22q0-9.168-6.526-15.694-6.527-6.527-15.694-6.527-9.168 0-15.694 6.526-6.527 6.526-6.527 15.694v22.22q0 9.168-6.526 15.694-6.527 6.527-15.694 6.527zm33.326-110.817h44.431q0-8.882-6.669-14.582-6.669-5.69-15.552-5.69-8.882 0-15.552 5.69-6.669 5.69-6.669 14.582z"/>
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Translucent orbital glass disc (within adaptive icon safe zone) -->
+    <path
+        android:fillAlpha="0.22"
+        android:fillColor="#6366F1"
+        android:pathData="M256,126 A130,130 0 1,1 255.9,126 Z"
+        android:strokeWidth="4"
+        android:strokeAlpha="0.65"
+        android:strokeColor="#38BDF8" />
+
+    <!-- 2x2 Launcher App Grid corner rounded tiles -->
+    <path
+        android:fillAlpha="0.24"
+        android:fillColor="#818CF8"
+        android:pathData="M188,178 L212,178 Q222,178 222,188 L222,212 Q222,222 212,222 L188,222 Q178,222 178,212 L178,188 Q178,178 188,178 Z"
+        android:strokeWidth="3"
+        android:strokeAlpha="0.6"
+        android:strokeColor="#22D3EE" />
+    <path
+        android:fillAlpha="0.24"
+        android:fillColor="#818CF8"
+        android:pathData="M300,178 L324,178 Q334,178 334,188 L334,212 Q334,222 324,222 L300,222 Q290,222 290,212 L290,188 Q290,178 300,178 Z"
+        android:strokeWidth="3"
+        android:strokeAlpha="0.6"
+        android:strokeColor="#22D3EE" />
+    <path
+        android:fillAlpha="0.24"
+        android:fillColor="#818CF8"
+        android:pathData="M188,290 L212,290 Q222,290 222,300 L222,324 Q222,334 212,334 L188,334 Q178,334 178,324 L178,300 Q178,290 188,290 Z"
+        android:strokeWidth="3"
+        android:strokeAlpha="0.6"
+        android:strokeColor="#22D3EE" />
+    <path
+        android:fillAlpha="0.24"
+        android:fillColor="#818CF8"
+        android:pathData="M300,290 L324,290 Q334,290 334,300 L334,324 Q334,334 324,334 L300,334 Q290,334 290,324 L290,300 Q290,290 300,290 Z"
+        android:strokeWidth="3"
+        android:strokeAlpha="0.6"
+        android:strokeColor="#22D3EE" />
+
+    <!-- Primary 4-point Nova Star with cyan-to-indigo gradient -->
+    <path android:pathData="M256,142 L288,224 L370,256 L288,288 L256,370 L224,288 L142,256 L224,224 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endColor="#6366F1"
+                android:endX="370"
+                android:endY="370"
+                android:startColor="#67E8F9"
+                android:startX="142"
+                android:startY="142"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+
+    <!-- Luminous inner star highlight -->
+    <path
+        android:fillColor="#F0FDFF"
+        android:pathData="M256,192 L273,239 L320,256 L273,273 L256,320 L239,273 L192,256 L239,239 Z" />
+
+    <!-- Electric Cyan Pulse Core -->
+    <path
+        android:fillColor="#22D3EE"
+        android:pathData="M256,242 A14,14 0 1,1 255.9,242 Z" />
 </vector>
